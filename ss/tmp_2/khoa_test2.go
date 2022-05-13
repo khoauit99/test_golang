@@ -5,5 +5,5 @@ import (
 )
 
 func Run3() {
-	fmt.Println("hello khoa")
+	fmt.Println("hello khoa_3")
 }

@@ -3,8 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	tmp "abc"
-	tmp_2 "abc/ss/tmp_2"
+
+	tmp_1 "github.com/khoauit99/test_golang"
+	tmp_2 "github.com/khoauit99/test_golang/ss/tmp_2"
 )
 
 func usage() func() {
@@ -30,6 +31,6 @@ func usage() func() {
 func main() {
 	flag.Usage = usage()
 	flag.Usage()
-	tmp.Run2()
+	tmp_1.Run2()
 	tmp_2.Run3()
 }
